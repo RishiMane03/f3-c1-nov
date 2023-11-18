@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Timer App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Multiple Timers App</h1>
+    <div class="input-container">
+      <p>Set Time :</p>
+      <input type="number" id="hours" placeholder="hh" />
+      <input type="number" id="minutes" placeholder="mm" />
+      <input type="number" id="seconds" placeholder="ss" />
+      <button id="setButton" class="setButton">Set Timer</button>
+    </div>
+    <div class="CurrentTimers">Current Timers</div>
+    <p id="ptag">You have no timers currently!</p>
+    <div class="timers-container" id="timersContainer">
+      <!-- Timers will be appended here -->
+
+    </div>
+    <audio id="timerAudio">
+      <source src="https://commondatastorage.googleapis.com/codeskulptor-assets/Evillaugh.ogg" type="audio/mpeg" />
+    </audio>
+    <script src="script.js"></script>
+  </body>
+</html>
